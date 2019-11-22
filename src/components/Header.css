@@ -1,5 +1,5 @@
 .Header {
-  background-color: #f5f4ebc4;
+  background-color: #f5f4eb93;
   height: 120px;
   display: flex;
   flex-wrap: wrap;
@@ -41,6 +41,7 @@
     font-family: 'Prata', serif;
     letter-spacing: 3px;
     color: #844e6b;
+    text-shadow: 1px 1.5px 3px gray;
   }
 
   nav {

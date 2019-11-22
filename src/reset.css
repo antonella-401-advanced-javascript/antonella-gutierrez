@@ -26,7 +26,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-html, body {
+html, body, div[id=root] {
 	height: 100%;
 	width: 100%;
 	min-width: 377px;
@@ -39,7 +39,9 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
-	background: url('https://cdn.pixabay.com/photo/2016/11/19/11/57/bloom-1838894_1280.jpg') no-repeat center center fixed;;
+	background: url('https://cdn.pixabay.com/photo/2016/11/19/11/57/bloom-1838894_1280.jpg') no-repeat center center fixed;
+	background-color: rgba(158, 152, 152, 0.187);
+	background-blend-mode: lighten;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
