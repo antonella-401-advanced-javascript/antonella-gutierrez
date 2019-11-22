@@ -1,0 +1,64 @@
+.Header {
+  background-color: #f5f4ebc4;
+  height: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+
+  @media screen and (max-width: 500px) {
+    flex-direction: column;
+    h1 {
+      font-size: 9vw;
+      margin: 30px auto 10px auto;
+    }
+  }
+
+  @media screen and (min-width: 500px) {
+    flex-direction: row;
+    h1 {
+      font-size: 30pt;
+      margin: 30px auto 10px auto;
+    }
+  }
+
+  @media screen and (min-width: 760px) {
+    h1 {
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 40%;
+    }
+    nav {
+      width: 400px;
+      a {
+        width: 80px;
+      }
+    }
+  }
+
+  h1 {
+    font-family: 'Prata', serif;
+    letter-spacing: 3px;
+    color: #844e6b;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5px auto;
+
+    a {
+      margin: 0 30px 0 20px;
+      text-decoration: none;
+      color: #66587b;
+    }
+
+    a:hover {
+      color: #302146;
+      text-shadow: 1px 1px 1px #281a3c59;
+      transform: scale(1.1);
+    }
+  }
+}
