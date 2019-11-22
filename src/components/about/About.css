@@ -1,0 +1,29 @@
+.About {
+  display: flex;
+  align-items: center;
+  margin: 15px auto;
+
+  section {
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    p {
+      width: 50%;
+      display: flex;
+      align-self: center;
+      font-size: 1.2em;
+      color: #66587b;
+    }
+
+    img {
+      width: 40%;
+      max-width: 230px;
+      border-radius: 30%;
+      box-shadow: 1px 2px 4px gray;
+    }
+  }
+}
