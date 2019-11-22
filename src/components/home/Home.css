@@ -16,14 +16,17 @@
       margin: 0;
       text-align: center;
       font-size: 3rem;
+      letter-spacing: 6px;
       font-weight: bolder;
-      text-shadow: 1px 2.5px 2px #f5f4ebe3;
+      text-shadow: 1px 1px 1px #000000b6;
       }
   
     span {
       font-size: 1.5rem;
+      letter-spacing: 3px;
+      margin-top: 15px;
       align-self: flex-end;
       font-weight: bold;
-      text-shadow: .5px 1.5px 1.5px #f5f4ebe3;
+      text-shadow: .5px .5px .5px #000000b6;
     }
 }
