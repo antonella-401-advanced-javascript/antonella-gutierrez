@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from './components/Header';
 import HomeContainer from './containers/homeContainer/Home';
 import AboutContainer from './containers/aboutContainer/About';
-import ContactContainer from './containers/contactContainer/Contact';
+import ProjectsContainer from './containers/projectsContainer/Projects';
 
 const App = () => {
   return (
@@ -13,7 +13,7 @@ const App = () => {
         <Switch>
           <Route exact path="/" component={HomeContainer} />
           <Route path="/about" component={AboutContainer} />
-          <Route path="/contact" component={ContactContainer} />
+          <Route path="/projects" component={ProjectsContainer} />
         </Switch>
       </>
     </Router>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function ContactContainer() {
+export default function ProjectsContainer() {
   return (
     <>
     </>
