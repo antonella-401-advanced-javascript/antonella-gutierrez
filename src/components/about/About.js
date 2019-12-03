@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './About.css';
-import Anty from '../../anty.jpg';
+import Anty from '../../antyy.jpg';
 
 const About = () => {
   return (
