@@ -28,12 +28,4 @@
     cursor: pointer;
   }
 
-  p[name=email] {
-    display: none;
-  }
-
-  p[name=phone] {
-    display: none;
-  }
-
 }
