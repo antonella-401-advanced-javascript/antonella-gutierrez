@@ -5,13 +5,35 @@
   align-items: center;
   margin: 15px auto;
 
-  fieldset {
-    width: 90%;
-    max-width: 1100px;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  a:hover {
+    cursor: pointer;
+  }
+
+  button {
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 50%;
+    outline: none;
+    
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  button:hover {
+    cursor: pointer;
+  }
+
+  p[name=email] {
+    display: none;
+  }
+
+  p[name=phone] {
+    display: none;
   }
 
 }
