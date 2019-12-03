@@ -6,7 +6,7 @@
   width: 90%;
   max-width: 1100px;
   background-color: #f5f4eb52;
-  box-shadow: 0 0 30px rgba(128, 128, 128, 0.742);
+  box-shadow: 0 0 30px #75516454;
   border-radius: 10px;
   overflow: scroll;
   animation: fadein .5s;
@@ -80,7 +80,7 @@
       max-width: 350px;
       border-radius: 25%;
       margin: auto 0px;
-      box-shadow: 1px 2px 15px rgba(128, 128, 128, 0.721);
+      box-shadow: 1px 2px 15px #75516454;
     }
   }
 }

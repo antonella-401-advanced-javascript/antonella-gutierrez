@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './About.css';
-import profilePic from '../../Anty.jpg';
 
 const About = () => {
+  const profilePic = '../../Anty.jpg';
   return (
     <div className={styles.About}>
       <section>
