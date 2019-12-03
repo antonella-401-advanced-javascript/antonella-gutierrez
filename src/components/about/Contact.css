@@ -1,5 +1,5 @@
 .Contact {
-  max-width: 940px;
+  max-width: 920px;
   height: 10%;
   display: flex;
   flex-direction: row;
@@ -9,10 +9,12 @@
 
   a {
     margin: auto;
+    border-radius: 3px;
   }
 
   a:hover {
     cursor: pointer;
+    transform: scale(1.1);
   }
 
   button {
