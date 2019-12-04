@@ -14,13 +14,27 @@
       margin: 30px auto 10px auto;
       padding: 0 2px 0 2px;
     }
+
+    nav {
+      a {
+      margin: 0 30px 0 20px;
+      }
+    }
   }
 
   @media screen and (min-width: 500px) {
     flex-direction: row;
     h1 {
-      font-size: 30pt;
-      margin: 30px auto 10px auto;
+      font-size: 3rem;
+      margin: 30px auto 0px auto;
+    }
+
+    nav {
+      font-size: 1.1rem;
+
+      a {
+      margin: 0 20px 0 30px;
+      }
     }
   }
 
@@ -31,6 +45,22 @@
     margin-right: 20px;
     width: 40%;
     }
+    nav {
+      width: 400px;
+      a {
+        width: 80px;
+      }
+    }
+  }
+
+  @media screen and (min-width: 1000px) {
+    h1 {
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 55%;
+    }
+
     nav {
       width: 400px;
       a {
@@ -53,7 +83,6 @@
     margin: 5px auto;
 
     a {
-      margin: 0 30px 0 20px;
       text-decoration: none;
       color: #66587b;
     }
