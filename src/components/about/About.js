@@ -3,7 +3,6 @@ import styles from './About.css';
 import anty from './antyy.jpg';
 
 const About = () => {
-  console.log(anty);
   return (
     <div className={styles.About}>
       <section>

@@ -8,14 +8,12 @@ import ProjectsContainer from './containers/projectsContainer/Projects';
 const App = () => {
   return (
     <Router>
-      <>
-        <Header />
-        <Switch>
-          <Route exact path="/" component={HomeContainer} />
-          <Route path="/about" component={AboutContainer} />
-          <Route path="/projects" component={ProjectsContainer} />
-        </Switch>
-      </>
+      <Header />
+      <Switch>
+        <Route exact path="/" component={HomeContainer} />
+        <Route path="/about" component={AboutContainer} />
+        <Route path="/projects" component={ProjectsContainer} />
+      </Switch>
     </Router>
   );
 };
