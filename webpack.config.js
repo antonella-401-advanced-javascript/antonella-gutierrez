@@ -4,8 +4,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 module.exports = {
   entry: './src/index.js',
   output: {
-    filename: './bundle.[hash].js',
-    publicPath: '/'
+    filename: './bundle.[hash].js'
   },
   devServer: {
     port: 7890,
