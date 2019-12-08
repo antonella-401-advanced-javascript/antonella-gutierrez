@@ -12,7 +12,7 @@ const Projects = () => {
           <img src={bashful} />
           <p>
           Built using Node.js, Inquirer, MongoDB and Express.js.
-CLI project that signs up/signs in an user, allows them to choose traits and fetches a match based on their input. The game will render a story based on the user selections which will simulate a date with their chosen match.
+CLI project that signs up/in a user, allows them to choose traits and fetches a match based on their input. The game will render a story based on the user selections which will simulate a date with their chosen match.
           </p>
         </a>
       </section>
