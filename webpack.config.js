@@ -5,7 +5,7 @@ const CopyPlugin = require('copy-webpack-plugin');
 module.exports = {
   entry: './src/index.js',
   output: {
-    filename: './bundle.[hash].js',
+    filename: './bundle.[contenthash].js',
     publicPath: '/'
   },
   devServer: {
@@ -15,9 +15,10 @@ module.exports = {
   plugins: [
     new HtmlPlugin({ template: './src/index.html' }),
     new CleanWebpackPlugin(),
-    new CopyPlugin([
-      { from: 'public' }
-    ])
+    new CopyPlugin({
+      patterns: [
+        { from: 'public' }
+      ] })
   ],
   module: {
     rules: [
@@ -49,10 +50,11 @@ module.exports = {
             loader: 'postcss-loader',
             options: {
               sourceMap: true,
-              plugins: [
-                require('autoprefixer')(),
-                require('postcss-nested')()
-              ]
+              postcssOptions: {
+                plugins: [
+                  require('autoprefixer')(),
+                  require('postcss-nested')()
+                ] }
             }
           }
         ]
