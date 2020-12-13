@@ -1,12 +1,21 @@
 import React from 'react';
-import styles from './App.css';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Header from './components/Header';
+import HomeContainer from './containers/homeContainer/Home';
+import AboutContainer from './containers/aboutContainer/About';
+import ProjectsContainer from './containers/projectsContainer/Projects';
 
-const App = () => (
-  <>
-    <div className={styles.Construction}>
-      <img src={'https://cdn.pixabay.com/photo/2019/02/20/15/21/underconstruction-4009361_1280.jpg'} />
-    </div>
-  </>
-);
+const App = () => {
+  return (
+    <Router>
+      <Header />
+      <Switch>
+        <Route exact path="/" component={HomeContainer} />
+        <Route path="/about" component={AboutContainer} />
+        <Route path="/projects" component={ProjectsContainer} />
+      </Switch>
+    </Router>
+  );
+};
 
 export default App;

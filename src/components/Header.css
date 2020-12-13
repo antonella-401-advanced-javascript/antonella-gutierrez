@@ -1,0 +1,108 @@
+.Header {
+  background-color: #f5f4eb93;
+  box-shadow: 0 0 10px #75516454;
+  min-height: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+
+  @media screen and (max-width: 500px) {
+    flex-direction: column;
+    h1 {
+      font-size: 8.5vw;
+      margin: 30px auto 10px auto;
+      padding: 0 4px 0 4px;
+      letter-spacing: 2px;
+    }
+
+    nav {
+      margin: 5px auto;
+
+      a {
+      margin: 0 30px 0 20px;
+      }
+    }
+  }
+
+  @media screen and (min-width: 500px) {
+    flex-direction: row;
+    h1 {
+      font-size: 3rem;
+      margin: 30px auto 0px auto;
+      letter-spacing: 3px;
+    }
+
+    nav {
+      font-size: 1.1rem;
+      margin: 5px auto;
+
+      a {
+      margin: 0 20px 0 30px;
+      }
+    }
+  }
+
+  @media screen and (min-width: 760px) {
+    h1 {
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 40%;
+    letter-spacing: 3px;
+    }
+
+    nav {
+      margin: 5px auto;
+      width: 400px;
+
+      a {
+        width: 80px;
+      }
+    }
+  }
+
+  @media screen and (min-width: 1000px) {
+    h1 {
+    margin: auto;
+    margin-left: 7%;
+    margin-right: 10px;
+    width: 55%;
+    text-align: left;
+    letter-spacing: 3px;
+    }
+
+    nav {
+      margin: 0;
+      width: 30%;
+      justify-content: space-between;
+      a {
+        width: 80px;
+        margin: 0;
+      }
+    }
+  }
+
+  h1 {
+    font-family: 'Prata', serif;
+    color: #844e6b;
+    text-shadow: 1px 1.5px 3px gray;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    a {
+      text-decoration: none;
+      color: #66587b;
+    }
+
+    a:hover {
+      color: #302146;
+      text-shadow: 1px 1px 1px #281a3c59;
+      transform: scale(1.1);
+    }
+  }
+}
